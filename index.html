@@ -1,13 +1,134 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Rodrigues Fisio</title>
+  <link rel="stylesheet" href="src/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Rubik:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+
+  </head>  
+  <body> 
+    <div class="site-wrap">
+      <div class="menu-website-mobile">
+      <div class="menu-website-mobile-header">
+        <div class="menu-website-mobile-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="menu-website-mobile-body"></div>
+    </div>
+
+    <header 
+    class="site-navbar" role="banner">
+
+    <div class="container">
+      <div class="row align-items-center">
+        
+        <div class="col-11 col-xl-4">
+          <h1 class="mb-0 site-logo"><a href="index.html" class="text-white mb-0">Rodrigues Fisio<span class="text-primary">.</span> </a></h1>
+        </div>
+        <div class="col-12 col-md-8 d-none d-xl-block">
+          <nav class="site-navigation position-relative text-right" role="navigation">
+
+            <ul class="site-menu js-clone-nav mr-auto d-none d-lg-block">
+              <li class="active"><a href="index.html"><span>Início</span></a></li>
+              <li class="has-children">
+                <a href="services.html"><span>Serviços</span></a>
+                <ul class="dropdown arrow-top">
+                  <li><a href="#">Massagem Clássica</a></li>
+                  <li><a href="#">Drenagem Linfática</a></li>
+                  <li><a href="#">Liberação Miofascial</a></li>
+                 </ul>
+                  </li>
+                </ul>
+              </li>
+              <li><a href="about.html"><span>Sobre</span></a></li>
+              <li><a href="contact.html"><span>Entre em contato</span></a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-white"><span class="icon-menu h3"></span></a></div>
+      </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="bloco-main overlap" style="**Imagem_bkg(cliente)**;" data-aos="fade" data-stellar-background-ratio="0.5">
+    <div class="container">
+      <div class="row align-items-center justify-content-center text-center">
+
+        <div class="col-md-10">
+          
+          <div class="row justify-content-center mb-4">
+            <div class="col-md-10 text-center">
+              <h1 data-aos="fade-up" class="mb-5">Nós temos a solução para <span class="typed-words"></span></h1>
+
+              <p data-aos="fade-up" data-aos-delay="100"><a href="#" class="btn btn-primary btn-contato">Entre em contato agora</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>  
+
+  <div class="bloco-serviços-simple">
+    <div class="container">
+      <div class="row">
+        <div class="mb-4 mb-lg-0 col-sm-6 col-md-6 col-lg-3">
+          <h3 class="mb-3">Nossos Serviços</h3>
+          <p>Atendimento exclusivo com hora marcada com toda a privacidade e conforto.</p>
+        </div>
+
+        <div class="mb-4 mb-lg-0 col-sm-6 col-md-6 col-lg-3">
+          <div class="bloco-serviços-1-card">
+            <a href="#" class="miniatura-link d-block mb-4"><img src="images/img_1.jpg" alt="Image" class="img-fluid"></a>
+              <h3 class="block-service-1-heading mb-3"><a href="#">Massagem Clássica</a></h3>
+              <div class="block-service-1-excerpt"><p>Descrição geral sobre Massagem Clássica ??? .</p></div>
+              <p><a href="#" class="d-inline-flex align-items-center block-service-1-more"><span>Saiba mais</span> <span class="icon-keyboard_arrow_right icon"></span></a></p>
+            </div>
+          </div>
+
+          <div class="mb-4 mb-lg-0 col-sm-6 col-md-6 col-lg-3">
+            <div class="block-service-1-card">
+              <a href="#" class="miniatura-link d-block mb-4"><img src="images/img_2.jpg" alt="Image" class="img-fluid"></a>
+              <h3 class="block-service-1-heading mb-3"><a href="#">Drenagem Linfática</a></h3>
+              <div class="block-service-1-excerpt"><p>Descrição geral sobre Drenagem Linfática ??? .</p></div>
+              <p><a href="#" class="d-inline-flex align-items-center block-service-1-more"><span>Saiba mais</span> <span class="icon-keyboard_arrow_right icon"></span></a></p>
+            </div>
+
+          </div>
+          <div class="mb-4 mb-lg-0 col-sm-6 col-md-6 col-lg-3">
+            <div class="block-service-1-card">
+              <a href="#" class="miniatura-link d-block mb-4"><img src="images/img_3.jpg" alt="Imagem" class="img-fluid"></a>
+              <h3 class="block-service-1-heading mb-3"><a href="#">Liberação Miofascial</a></h3>
+              <div class="block-service-1-excerpt"><p>Descrição geral sobre Liberação Miofascial ???.</p></div>
+              <p><a href="#" class="d-inline-flex align-items-center block-service-1-more"><span>Saiba mais</span> <span class="icon-keyboard_arrow_right icon"></span></a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-5 block-cta-1 primary-overlay" style="background-image: url('images/hero_bg_2.jpg')">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-lg-7 mb-4 mb-lg-0">
+            <h2 class="mb-3 mt-0 text-white">Desconto especial para fidelização de nossos serviços. *</h2>
+            <p class="mb-0 text-white lead">Realize o agendamento de melhor horário e desfrute do que há de melhor.</p>
+          </div>
+          <div class="col-lg-4">
+            <p class="mb-0"><a href="contact.html" class="btn btn-outline-white text-white btn-md btn-pill px-5 font-weight-bold btn-block">Contato</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <a class="whatsapp-link" 
+    href="https://wa.me/5534991732068/?text=Ol%C3%A1%20Fernanda,%20gostaria%20de%20agendar%20um%20dos%20servi%C3%A7os%20fisioterap%C3%AAuticos%20para%20melhor%20estar." target="_blank">
+      <i class="fa fa-whatsapp"></i>
+      
   </body>
 </html>
